@@ -17,7 +17,6 @@ function draw() {
     rotateY(QUARTER_PI);
     rotateX(ma);
 
-    let offset = 0;
     for(let z = 0; z < height; z += w){
         for(let x = 0; x < width; x+= w){
             push();
